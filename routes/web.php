@@ -14,7 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-
 Route::get('/', function () {return view('welcome');});
 
 Route::get('test', function () { return '!'; }); 
@@ -40,8 +39,3 @@ Route::get('dir/test', function () { return '!!'; });
     return $id;
   })->where(['id' => '[0-9]+']);
 Route::get('name/show', [App\Http\Controllers\Name::class, 'show']);
-Route::get('test/show', [App\Http\Controllers\TestController::class, 'show']); 
-Route::get('pages/show/{id}', [App\Http\Controllers\Page::class, 'showOne']);
-Route::get('pages/all/{id}', [App\Http\Controllers\Page::class, 'showAll']);
-Route::get('pages/mda/{pages}', [App\Http\Controllers\Page::class, 'pagess']);
-Route::get('pages/mda/{id}', [App\Http\Controllers\Page::class, 'pagess2']);
