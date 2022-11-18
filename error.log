@@ -1,0 +1,2 @@
+[Thu Sep 15 00:10:07.329830 2022] [php:error] [pid 125577] [client 192.168.2.41:1233] PHP Fatal error:  Cannot redeclare App\\Http\\Controllers\\Page::pagess() in /srv/users/unbmbyrh/tznkfsa-m1/app/Http/Controllers/Page.php on line 17
+[Thu Sep 15 00:10:50.130929 2022] [php:error] [pid 126232] [client 192.168.2.41:1234] PHP Fatal error:  Cannot redeclare App\\Http\\Controllers\\Page::pagess() in /srv/users/unbmbyrh/tznkfsa-m1/app/Http/Controllers/Page.php on line 17
