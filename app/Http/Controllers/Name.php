@@ -6,18 +6,29 @@ use App\Http\Controllers\Controller;
 
  class Name extends Controller 
 { 
-public function show() 
+public function up() 
    {
 
     
- return view('Name.ban', ['var4' => 'Пресняков', 'var3' =>'Максим','age'=>18,'date'=>7,'month'=>13,'pages'=>[ 1,3,4,5,6] ]); 
+      Schema::create('users', function (Blueprint $table) {
+         $table->increments('id');
+         $table->string('login')->unique();
+         $table->string('email')->unique();
+         $table->string('password');
+         $table->rememberToken();
+         $table->timestamps();
+     });
+ }
 
-    }	 
-
-
-
-        
-}
+ /**
+  * Reverse the migrations.
+  *
+  * @return void
+  */
+ public function down()
+ {
+     Schema::drop('users');
+ }
 
 ?>
 
