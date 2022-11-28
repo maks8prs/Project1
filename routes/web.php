@@ -22,6 +22,8 @@ Route::get('dir/test', function () { return '!!'; });
 
 
 
+
+
   Route::get('user/{id}/{name}', function ($id, $name) {
     return($name);
   })->where(['id' => '[0-9]+', 'name' => '[a-z]+']);
@@ -38,4 +40,7 @@ Route::get('dir/test', function () { return '!!'; });
   Route::get('user/{id?}', function ($id = 0) {
     return $id;
   })->where(['id' => '[0-9]+']);
-Route::get('name/show', [App\Http\Controllers\Name::class, 'show']);
+Route::get('name/show', [App\Http\Controllers\TestController::class, 'show']);
+Route::get('name/login', [App\Http\Controllers\Login2::class, 'show']);
+Route::get('name/reg', [App\Http\Controllers\Reg1::class, 'show']);
+Route::get('name/Katalog', [App\Http\Controllers\Katalog::class, 'show']);
