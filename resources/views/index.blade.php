@@ -13,11 +13,11 @@
       <div class="logo"> <img src="logo.png"></div>
     <div class="menu">
         <ul>
-            <li><a href="#vk">О нас</a></li>
-            <li><a href="#info">Каталог</a></li>
+            <li><a href="about">О нас</a></li>
+            <li><a href="#Каталог">Каталог</a></li>
             <li><a href="#kontacts">Где нас найти</a></li>
-            <li><a href="login.html">Вход</a></li>
-            <li><a href="reg.html">Регистрация</a></li>
+            <li><a href="login">Вход</a></li>
+            <li><a href="reg">Регистрация</a></li>
         </ul>
     </div>
 </header>

@@ -75,10 +75,10 @@
     }
 
 
+.slogan{
+text-align: center;
 
-
-
-
+}
 
 
     a{
@@ -90,7 +90,8 @@
         font-size: 30px;
         margin-left: -80%;
     }
-    a:hover{
+    a:hover
+    {
             background-color: rgb(255, 255, 255);
             padding: 0px 25px;
             text-decoration: none;
