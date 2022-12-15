@@ -6,12 +6,9 @@ $age=18;
 
  class TestController extends Controller 
 { 
-	protected $arr1;
-	public function __construct(){
-		$this->arr1=[1,2,3,4,5];
-	}
-public function show() 
-   {
+
+	
+public function show() {
   
 
  return view('about'); 

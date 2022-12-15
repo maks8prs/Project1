@@ -14,7 +14,7 @@
     <div class="menu">
         <ul>
             <li><a href="about">О нас</a></li>
-            <li><a href="#Каталог">Каталог</a></li>
+            <li><a href="Katalog">Каталог</a></li>
             <li><a href="#kontacts">Где нас найти</a></li>
             <li><a href="login">Вход</a></li>
             <li><a href="reg">Регистрация</a></li>
